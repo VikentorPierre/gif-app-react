@@ -1,0 +1,107 @@
+.main-feed-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  background-color: #121212;
+}
+section {
+  display: flex;
+}
+.select-picker-sec_header {
+  width: 100%;
+}
+.select-picker-sec_header h1 {
+  color: #ffffff;
+  margin-bottom: 50px;
+  padding: 0 5px;
+}
+
+.trend-gif-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 6em;
+}
+.gif-card {
+  margin: 0 5px;
+}
+.gif-card-img {
+  width: auto;
+  height: 140px;
+}
+
+/* article */
+.meme-sec {
+  display: flex;
+  flex-direction: column;
+}
+.meme-sec h1 {
+  color: #ffffff;
+  margin-bottom: 50px;
+  padding: 0 5px;
+}
+.main-gifs-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+/* SMARTPHONES PORTRAIT */
+@media (min-width: 340px) {
+  .trend-gif-wrap {
+    /* justify-content: space-between; */
+  }
+  .gif-card-img {
+    /* width: 65px; */
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media (min-width: 480px) {
+  .trend-gif-wrap {
+    /* justify-content: center; */
+  }
+  .gif-card-img {
+    /* width: 90px; */
+  }
+}
+
+@media (min-width: 600px) {
+  .trend-gif-wrap {
+    /* justify-content: center; */
+  }
+  .gif-card {
+    /* margin-left: 5px; */
+  }
+  .gif-card-img {
+    /* width: 95px; */
+  }
+}
+
+/* TABLETS PORTRAIT */
+@media (min-width: 750px) {
+  .main-feed-content {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+  }
+  .gif-card {
+    /* margin-left: 15px; */
+  }
+  .gif-card-img {
+    /* width: 100px; */
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media (min-width: 1024px) {
+  .main-feed-content {
+    width: calc(100% - 220px);
+    margin: 0 auto;
+  }
+  .trend-gif-wrap {
+    justify-content: space-between;
+  }
+  .gif-card-img {
+    /* width: 110px; */
+  }
+}
