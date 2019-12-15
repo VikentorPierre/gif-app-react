@@ -5,6 +5,7 @@ import '../css/shared/detail.css';
 const Detail = props => {
   const { id } = props.match.params;
   const [giflink, setGifLink] = useState('');
+  // over https
   useEffect(() => {
     fetch(
       `https://api.giphy.com/v1/gifs?ids=${id}&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n`

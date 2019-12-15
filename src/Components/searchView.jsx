@@ -12,12 +12,7 @@ const Search = props => {
   };
 
   useEffect(() => {
-    // console.log(
-    //   'https://api.giphy.com/v1/gifs/search?q=' +
-    //     id +
-    //     '&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n'
-    // );
-
+    // over https
     fetch(
       'https://api.giphy.com/v1/gifs/search?q=' +
         id +
