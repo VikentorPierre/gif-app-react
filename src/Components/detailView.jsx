@@ -7,7 +7,7 @@ const Detail = props => {
   const [giflink, setGifLink] = useState('');
   useEffect(() => {
     fetch(
-      `http://api.giphy.com/v1/gifs?ids=${id}&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n`
+      `https://api.giphy.com/v1/gifs?ids=${id}&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n`
     )
       .then(res => res.json())
       .then(response => {
@@ -20,14 +20,8 @@ const Detail = props => {
   return (
     <main className='main-feed-content'>
       <div className='detail-wrap'>
-        <img
-          src={giflink}
-          //   src={item.images.fixed_height.url}
-          alt='pic'
-          className='detail-card-img'
-        />
+        <img src={giflink} alt='pic' className='detail-card-img' />
       </div>
-      {/* <h2> {console.log(props.match.params.id)}</h2> */}
     </main>
   );
 };

@@ -12,14 +12,14 @@ const Search = props => {
   };
 
   useEffect(() => {
-    console.log(
-      'http://api.giphy.com/v1/gifs/search?q=' +
-        id +
-        '&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n'
-    );
+    // console.log(
+    //   'https://api.giphy.com/v1/gifs/search?q=' +
+    //     id +
+    //     '&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n'
+    // );
 
     fetch(
-      'http://api.giphy.com/v1/gifs/search?q=' +
+      'https://api.giphy.com/v1/gifs/search?q=' +
         id +
         '&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n&limit=30'
     )
