@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gif-app-react/static/css/main.06722bd8.chunk.css",
-    "main.js": "/gif-app-react/static/js/main.46564eab.chunk.js",
-    "main.js.map": "/gif-app-react/static/js/main.46564eab.chunk.js.map",
+    "main.js": "/gif-app-react/static/js/main.0a89a043.chunk.js",
+    "main.js.map": "/gif-app-react/static/js/main.0a89a043.chunk.js.map",
     "runtime-main.js": "/gif-app-react/static/js/runtime-main.a4487209.js",
     "runtime-main.js.map": "/gif-app-react/static/js/runtime-main.a4487209.js.map",
     "static/js/2.2612c061.chunk.js": "/gif-app-react/static/js/2.2612c061.chunk.js",
     "static/js/2.2612c061.chunk.js.map": "/gif-app-react/static/js/2.2612c061.chunk.js.map",
     "index.html": "/gif-app-react/index.html",
-    "precache-manifest.b5178eeb8e7ea2c013d334bb297b4459.js": "/gif-app-react/precache-manifest.b5178eeb8e7ea2c013d334bb297b4459.js",
+    "precache-manifest.785f0b3d57fd03073f2325f15cec91a9.js": "/gif-app-react/precache-manifest.785f0b3d57fd03073f2325f15cec91a9.js",
     "service-worker.js": "/gif-app-react/service-worker.js",
     "static/css/main.06722bd8.chunk.css.map": "/gif-app-react/static/css/main.06722bd8.chunk.css.map",
     "static/js/2.2612c061.chunk.js.LICENSE": "/gif-app-react/static/js/2.2612c061.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a4487209.js",
     "static/js/2.2612c061.chunk.js",
     "static/css/main.06722bd8.chunk.css",
-    "static/js/main.46564eab.chunk.js"
+    "static/js/main.0a89a043.chunk.js"
   ]
 }
