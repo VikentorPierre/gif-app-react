@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0cf4cbbdaf62f120c3712a5c6291b3aa",
+    "revision": "d2225b841c219a06a877b987435b9010",
     "url": "/gif-app-react/index.html"
   },
   {
-    "revision": "524206e6a5aab7373b82",
+    "revision": "7e44e7f880a9ef3678e3",
     "url": "/gif-app-react/static/css/main.06722bd8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gif-app-react/static/js/2.2612c061.chunk.js.LICENSE"
   },
   {
-    "revision": "524206e6a5aab7373b82",
-    "url": "/gif-app-react/static/js/main.e22a6aa0.chunk.js"
+    "revision": "7e44e7f880a9ef3678e3",
+    "url": "/gif-app-react/static/js/main.8c5fe165.chunk.js"
   },
   {
     "revision": "5f3c74af41211341c322",
