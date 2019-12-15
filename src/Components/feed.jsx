@@ -7,6 +7,7 @@ const Feed = props => {
   const [showingGifs, setShowingGifs] = useState([]);
 
   // we fetch the 5 top trending gif and load similar gifs
+  // using https
   useEffect(() => {
     fetch(
       'https://api.giphy.com/v1/gifs/trending?api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n&limit=5'
