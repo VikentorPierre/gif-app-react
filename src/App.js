@@ -6,6 +6,7 @@ import Feed from './Components/feed';
 import DetailView from './Components/detailView';
 import Search from './Components/searchView';
 import { Signup, Login } from './Components/auth';
+// import Footer from './Components/widgets/footer';
 
 function App() {
   return (

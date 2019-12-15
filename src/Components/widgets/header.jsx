@@ -20,7 +20,7 @@ const Header = props => {
     <header className='header-main-site'>
       <div className='top-navbar'>
         <Link to='/' className='header-main-site_brand'>
-          <h1>Logo</h1>
+          <h1 style={{ marginLeft: '5px' }}> Gif-Search </h1>
         </Link>
         <nav className='header-main-site_nav'>
           {currentUser ? (
@@ -52,7 +52,7 @@ const Header = props => {
       </div>
       <div className='header-main-site_wrap'>
         <Link to='/' className='header-main-site_brand'>
-          <h1>Logo</h1>
+          <h1> Gif-Search</h1>
         </Link>
         <div className='header-main-site_search'>
           <form action='' className='search-form' onSubmit={handleSubmit}>

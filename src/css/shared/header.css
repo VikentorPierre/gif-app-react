@@ -47,7 +47,7 @@
 .header-main-site_search {
   align-self: center;
   flex: 1.5;
-  margin-left: 5px;
+  /* margin-left: 5px; */
   /* width: calc(100%-50px); */
 }
 .search-bar-form-control {
