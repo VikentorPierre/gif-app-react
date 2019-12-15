@@ -11,7 +11,7 @@ import { Signup, Login } from './Components/auth';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         <div className='App'>
           <Header />
           <Switch>
