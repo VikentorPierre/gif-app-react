@@ -9,7 +9,7 @@ const Feed = props => {
   // we fetch the 5 top trending gif and load similar gifs
   useEffect(() => {
     fetch(
-      'http://api.giphy.com/v1/gifs/trending?api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n&limit=5'
+      'https://api.giphy.com/v1/gifs/trending?api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n&limit=5'
     )
       .then(res => res.json())
       .then(response => {
@@ -18,7 +18,7 @@ const Feed = props => {
       })
       .then(dat => {
         fetch(
-          `http://api.giphy.com/v1/gifs/search?q=${dat}&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n`
+          `https://api.giphy.com/v1/gifs/search?q=${dat}&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n`
         )
           .then(res => res.json())
           .then(response => setShowingGifs(response.data));
@@ -70,7 +70,7 @@ const Feed = props => {
   // this function is run when we lick one of the 5 trending gifs, then it load the rest of the related gifs
   function getAllGifs(gifurl) {
     fetch(
-      `http://api.giphy.com/v1/gifs/search?q=${gifurl}&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n`
+      `https://api.giphy.com/v1/gifs/search?q=${gifurl}&api_key=pOIRajs5VujoMyGvrMyB7uNXcFtFyt6n`
     )
       .then(res => res.json())
       .then(response => setShowingGifs(response.data));
